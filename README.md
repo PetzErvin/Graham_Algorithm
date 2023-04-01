@@ -7,8 +7,9 @@ Algoritmul începe prin găsirea punctului cu cea mai mică coordonată Y, iar �
 În cele din urmă, se desenează punctele în negru și invelișul convex în albastru pe PictureBox. Această implementare poate fi îmbunătățită prin adăugarea de funcții pentru a adăuga, șterge și reseta punctele din PictureBox.
 
 
-Algoritmul Graham Scan funcționează astfel: 
+ # Algoritmul Graham Scan funcționează astfel: 
 (pas cu pas)
+
 1.Se selectează punctul cu cea mai mică valoare a coordonatei y și, în caz de egalitate, cu cea mai mică valoare a coordonatei x.
 
 2.Se sortează celelalte puncte în ordinea crescătoare a unghiului pe care îl fac cu punctul selectat la primul pas.
