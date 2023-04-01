@@ -22,4 +22,6 @@ Algoritmul începe prin găsirea punctului cu cea mai mică coordonată Y, iar �
 
 6.Algoritmul se oprește când toate punctele au fost verificate și se obține acoperirea convexă a setului de puncte.
 
+# Concluzie
+
 În esență, algoritmul Graham Scan selectează un punct de pornire și apoi sortează restul punctelor în ordine crescătoare a unghiurilor pe care le fac cu punctul de pornire. Apoi, începând cu cel de-al doilea punct din lista sortată, algoritmul verifică dacă adăugarea lui ar face o întoarcere la stânga sau la dreapta. Punctele care fac o întoarcere la dreapta sunt eliminate din acoperirea convexă, iar punctele care fac o întoarcere la stânga sunt adăugate. După ce s-au verificat toate punctele, acoperirea convexă a setului de puncte este formată din punctele rămase în lista acoperirii convexe.
